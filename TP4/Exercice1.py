@@ -50,3 +50,5 @@ voiture.afficher_info()
 # L'affichage des informations de la moto
 print("\nLes informations sur la moto :")
 moto.afficher_info()
+
+print(Voiture.mro())
