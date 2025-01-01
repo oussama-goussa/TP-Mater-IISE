@@ -1,0 +1,3 @@
+Bonjour, ceci est un exemple.
+Python est un langage puissant.
+Ce fichier contient trois lignes.

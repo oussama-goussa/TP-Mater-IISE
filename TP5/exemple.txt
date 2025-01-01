@@ -1,0 +1,5 @@
+Ceci est un exemple de fichier texte.
+Il contient au moins cinq lignes de texte.
+Vous pouvez ajouter autant de lignes que vous le souhaitez.
+Chaque ligne peut contenir du texte différent.
+Amusez-vous bien avec ce fichier!
