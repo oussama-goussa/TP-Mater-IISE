@@ -1,0 +1,3 @@
+Aujourd'hui, j'ai appris à programmer en Python.
+C'est vraiment intéressant !
+Demain, je vais essayer de créer un jeu simple.
