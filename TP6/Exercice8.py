@@ -6,7 +6,7 @@ from Exercice6 import safe_division
 
 class TesterProcessInput(unittest.TestCase):
     
-    def tester_valueError(self):
+    def tester_safe_division(self):
         with self.assertRaises(ZeroDivisionError):
             safe_division(5,0)
         
