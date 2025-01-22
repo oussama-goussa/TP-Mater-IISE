@@ -2,14 +2,16 @@
 
 import unittest
 
-from Exercice5 import process_input
+from Exercice6 import safe_division
 
 class TesterProcessInput(unittest.TestCase):
-    def tester_division_succes(self):
-        self.assertEqual(process_input("100"), "Le résultat de la division est : 10.0")
-
+    
     def tester_valueError(self):
-        self.assertEqual(process_input("abc"), "Veuillez entrer un nombre entier valide.")
+        with self.assertRaises(ZeroDivisionError):
+            safe_division(5,0)
+        
+        result = safe_division(5,1)
+        self.assertEqual(result, 5)
 
 if __name__ == '__main__':
     unittest.main()

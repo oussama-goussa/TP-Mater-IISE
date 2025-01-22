@@ -1,7 +1,9 @@
+# Exercice5.py
+
 def process_input(user_input):
     try:
         number = int(user_input)
-        result = number / 10
+        result = 10 / number
         return f"Le résultat de la division est : {result}"
 
     except ValueError:
