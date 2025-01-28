@@ -1,4 +1,4 @@
-def concatenate(str1, str2):
+def concatener(str1, str2):
     """
     Concatène deux chaînes de caractères.
 
@@ -11,7 +11,7 @@ def concatenate(str1, str2):
     """
     return str1 + str2
 
-def to_uppercase(string):
+def mettre_en_majuscule(string):
     """
     Convertit une chaîne de caractères en majuscules.
 

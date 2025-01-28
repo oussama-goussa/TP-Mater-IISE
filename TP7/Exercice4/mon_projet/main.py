@@ -1,16 +1,16 @@
 # main.py
 
-from src.math_operations import add, subtract, multiply, divide
-from src.string_operations import concatenate, to_uppercase
+from src import addition, soustraction, multiplication, division
+from src import concatener, mettre_en_majuscule
 
 def main():
-    print("Addition: ", add(5, 3))
-    print("Subtraction: ", subtract(10, 4))
-    print("Multiplication: ", multiply(6, 7))
-    print("Division: ", divide(8, 2))
+    print("Addition: ", addition(5, 3))
+    print("Subtraction: ", soustraction(10, 4))
+    print("Multiplication: ", multiplication(6, 7))
+    print("Division: ", division(8, 2))
 
-    print("Concatenate: ", concatenate("Hello, ", "World!"))
-    print("Uppercase: ", to_uppercase("hello"))
+    print("Concatenate: ", concatener("Hello, ", "World!"))
+    print("Uppercase: ", mettre_en_majuscule("hello"))
 
 if __name__ == "__main__":
     main()

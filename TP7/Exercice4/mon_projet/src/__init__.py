@@ -1,2 +1,2 @@
-from .math_operations import add, subtract, multiply, divide
-from .string_operations import concatenate, to_uppercase
+from .math_operations import addition, soustraction, multiplication, division
+from .string_operations import concatener, mettre_en_majuscule
