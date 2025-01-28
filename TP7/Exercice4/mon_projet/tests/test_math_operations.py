@@ -1,7 +1,7 @@
 # tests/test_math_operations.py
 
 import unittest
-from src.math_operations import add, subtract, multiply, divide
+from src import add, subtract, multiply, divide
 
 class TestMathOperations(unittest.TestCase):
 
@@ -24,7 +24,7 @@ class TestMathOperations(unittest.TestCase):
         self.assertEqual(divide(10, 2), 5)
         self.assertEqual(divide(-1, 1), -1)
         self.assertEqual(divide(-1, -1), 1)
-        with self.assertRaises(ValueError):
+        with self.assertRaises(ZeroDivisionError):
             divide(1, 0)
 
 if __name__ == "__main__":

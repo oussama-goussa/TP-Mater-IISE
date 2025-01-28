@@ -49,8 +49,8 @@ def divide(a, b):
     int, float: Le quotient des deux nombres.
 
     Raises:
-    ValueError: Si le deuxième nombre (b) est égal à zéro.
+    ZeroDivisionError: Si le deuxième nombre (b) est égal à zéro.
     """
     if b == 0:
-        raise ValueError("Impossible de diviser par zéro")
+        raise ZeroDivisionError("Impossible de diviser par zéro")
     return a / b
